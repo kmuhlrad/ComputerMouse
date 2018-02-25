@@ -1,6 +1,6 @@
 import serial, time
 port = 'COM3'
-comm = serial.Serial(port, 115300, timeout = 5)
+comm = serial.Serial(port, 9600, timeout = 5)
 
 
 while True:
